@@ -1,0 +1,28 @@
+.pagination li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+.pagination {
+  text-align: center;
+  margin-top: 35px;
+}
+.pagination li button {
+  background: #ddd;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all.3s;
+}
+.pagination li.active button,
+.pagination li:hover button {
+  background-color: #157347;
+  color: #fff;
+}
+li.Clickable button[disabled] {
+  opacity: 0.5;
+  cursor: no-drop;
+  background-color: #157347;
+  color: #fff;
+}

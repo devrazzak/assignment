@@ -1,0 +1,75 @@
+.list-area table {
+  width: 100%;
+  text-align: center;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+.list-area h3 {
+  margin-bottom: 20px;
+  line-height: 1;
+  font-size: 26px;
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+.list-area table tbody tr:nth-child(2n) {
+  background-color: #ece9e9;
+}
+
+.list-area table tr {
+  margin-bottom: 10px;
+}
+
+.list-area table th {
+  text-align: center;
+  color: #272838;
+  border-bottom: 2px solid #eb9486;
+  background-color: #f9f8f8;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.list-area table td {
+  color: #7e7f9a;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+}
+.list-area table td button.btn {
+  border: none;
+  color: #fff;
+  margin-left: 15px;
+  padding: 10px 30px;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+}
+.list-area table td button.btn.delete {
+  background: #dc3545;
+}
+.list-area table td button.btn.details {
+  background: #157347;
+}
+.list-area table td button.btn.edit {
+  background: #0d6efd;
+}
+
+th.Action {
+  width: 33%;
+}
+th.id {
+  width: 10%;
+}
+th.firstName {
+  width: 20%;
+}
+th.lastName {
+  width: 20%;
+}
+th.type {
+  width: 14%;
+}

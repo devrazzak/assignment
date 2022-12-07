@@ -1,0 +1,138 @@
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+.row {
+  display: flex;
+}
+.col-8 {
+  width: 60%;
+  float: left;
+}
+.col-4 {
+  width: 40%;
+  float: left;
+}
+.loader.user {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #222;
+  border-top: 5px solid #fff;
+}
+.user-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+}
+.loader {
+  border: 2px solid #ffff;
+  border-radius: 50%;
+  border-top: 2px solid #3498db;
+  width: 10px;
+  height: 10px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 1399.98px) {
+  .container {
+    max-width: 1140px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .container {
+    max-width: 960px;
+    margin: auto;
+  }
+  th.Action {
+    width: 33%;
+  }
+  th.id {
+    width: 5%;
+  }
+  th.firstName {
+    width: 15%;
+  }
+  th.lastName {
+    width: 15%;
+  }
+  th.type {
+    width: 15%;
+  }
+}
+@media (max-width: 991.98px) {
+  .container {
+    max-width: 720px;
+    margin: auto;
+  }
+  .container {
+    max-width: 540px;
+    margin: auto;
+  }
+  .list-area table {
+    width: 800px;
+    overflow-x: auto;
+  }
+  th.Action {
+    width: 50%;
+  }
+  .list-area {
+    overflow-x: auto;
+  }
+  button.tab-button {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 767.98px) {
+}
+
+@media (max-width: 575.98px) {
+  .container {
+    max-width: 100%;
+    margin: auto;
+  }
+  .list-area table td button.btn {
+    background: #0d6efd;
+    margin-bottom: 10px;
+    width: 106px;
+  }
+  .col-4 {
+    width: 100%;
+  }
+  .col-8 {
+    width: 100%;
+  }
+  .modal-area.active {
+    scale: 1;
+    width: 100%;
+    visibility: visible;
+  }
+}

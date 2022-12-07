@@ -1,0 +1,9 @@
+.create-button.left {
+  text-align: left;
+  display: inline-block;
+  float: left;
+}
+.create-button.left button {
+  margin-right: 15px;
+  display: flex;
+}

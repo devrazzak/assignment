@@ -1,0 +1,5 @@
+button.tab-button[disabled] {
+  opacity: 0.5;
+  cursor: no-drop;
+  background-color: #004725;
+}
